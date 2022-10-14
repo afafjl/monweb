@@ -1,0 +1,129 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'Andada Pro', serif;
+  src: url("AndadaPro-Regular.ttf");
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("Montserrat-ExtraLight.ttf");
+}
+html{
+  font-size: 10px;
+}
+body {
+  font-family: 'Andada Pro', serif;
+  font-size: 1.6em;
+  letter-spacing:0.7px;
+  word-spacing: 0.8px;
+  line-height: 2em;
+}
+section h2 + p{
+  text-indent:20px;
+}
+h2, header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  letter-spacing:2px;
+}
+header {
+  text-align:center;
+}
+a{
+  outline: none;
+}
+a:hover, a:focus{
+  text-decoration: none;
+  color:#a66;
+}
+a:visited, a:link{
+  color:#a66;
+}
+a:active{
+  color:palevioletred;
+}
+a[href*="http"]{
+  padding-right:16px;
+  background: url(external-link-52.png) right no-repeat;
+  background-size : 13px 13px;
+}
+ul{
+  line-height: 2em;
+  margin-left:30px;
+  list-style-type: square;
+}
+ol{
+  line-height: 2em;
+  margin-left:30px;
+  list-style-type: lower-alpha;
+}
+aside ul,h2,p{
+  margin-left:30px;
+}
+nav li{
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+nav li a{
+  display: inline-block;
+  width:180px;
+  height:60px;
+  padding-top:12px;
+  border:1px solid #a66;
+  text-decoration:none;
+  text-align: center;
+  font-size: 1.2em;   
+}
+nav li a:hover{
+  background:rgb(248, 188, 188);
+}
+nav li a:active{
+  background:rgb(247, 136, 136);
+}
+  

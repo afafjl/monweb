@@ -1,0 +1,9 @@
+tbody{
+    font-size: 94%;
+    font-style: italic;
+    text-align: center;
+}
+tfoot{
+    font-weight:bold;
+    text-align: center;
+}
